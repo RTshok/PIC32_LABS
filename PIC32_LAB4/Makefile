@@ -42,7 +42,6 @@ flash:
 	quit
 	EOF
 	$(MDB) $(MDBSCRIPT)
-
 clean:
 	@echo Cleaning up...
 	rm -f $(MDBSCRIPT) $(TARGET).hex $(TARGET).elf $(TARGET) ...add more here...
